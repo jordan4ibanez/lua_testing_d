@@ -8,5 +8,7 @@
 	],
 	"copyright": "Copyright © 2026, jordan4ibanez",
 	"license": "MIT",
-	"name": "lua_testing_d"
+	"name": "lua_testing_d",
+	"versions": ["LUA_51"],
+	"lflags": ["-lluajit"]
 }
