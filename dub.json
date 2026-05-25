@@ -10,5 +10,6 @@
 	"license": "MIT",
 	"name": "lua_testing_d",
 	"versions": ["LUA_51"],
-	"libs": ["luajit"]	
+	"lflags": ["-lluajit-5.1"],
+	"libs": ["luajit"]
 }
