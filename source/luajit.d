@@ -13,7 +13,20 @@ private:
 public:
 
     void initialize() {
+        if (state !is null) {
+            lua_close(state);
+        }
+        state = luaL_newstate();
+        luaL_openlibs(state);
+    }
 
+    void terminate() {
+        if (state is null) {
+            return;
+        }
+
+        lua_close(state);
+        state = null;
     }
 
 }
