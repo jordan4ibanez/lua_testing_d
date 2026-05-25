@@ -1,8 +1,10 @@
 import bindbc.lua;
+import luajit;
 import std.stdio;
 import std.string;
 
 void main() {
+
 	lua_State* lua = luaL_newstate();
 
 	luaL_openlibs(lua);
