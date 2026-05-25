@@ -1,8 +1,11 @@
 module luajit;
 
-public static final class Luajit {
+import bindbc.lua;
+
+public static final class LuaJIT {
 static:
 private:
+
 
 public:
 }
