@@ -24,14 +24,4 @@ void main() {
 		writeln("success!");
 	}
 
-	
-
-
-	// This version attempts to load the Lua library using a user-supplied file name.
-	// Usually, the name and/or path used will be platform specific, as in this example
-	// which attempts to load `lua51.dll` from the `libs` subdirectory, relative
-	// to the executable, only on Windows.
-
-	// version(Windows) loadLua("libs/lua51.dll")
-
 }
