@@ -20,7 +20,12 @@ void main() {
 			// shared library is a version different from the one the app was
 			// configured to load
 		}
+	} else {
+		writeln("success!");
 	}
+
+	
+
 
 	// This version attempts to load the Lua library using a user-supplied file name.
 	// Usually, the name and/or path used will be platform specific, as in this example
