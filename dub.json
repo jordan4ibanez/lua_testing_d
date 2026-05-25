@@ -1,9 +1,12 @@
 {
 	"description": "testing lua",
-	"license": "MIT",
+	"dependencies": {
+		"bindbc-lua": "~>0.6.1"
+	},
 	"authors": [
 		"jordan4ibanez"
 	],
 	"copyright": "Copyright © 2026, jordan4ibanez",
+	"license": "MIT",
 	"name": "lua_testing_d"
 }
