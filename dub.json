@@ -9,7 +9,7 @@
 	"copyright": "Copyright © 2026, jordan4ibanez",
 	"license": "MIT",
 	"name": "lua_testing_d",
-	"versions": ["LUA_51"],
+	"versions": ["BindLua_Static", "LUA_51"],
 	"lflags": ["-lluajit-5.1"],
 	"libs": ["luajit"]
 }
