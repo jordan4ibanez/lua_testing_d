@@ -1,11 +1,19 @@
 module luajit;
 
 import bindbc.lua;
+import mod;
 
-public static final class LuaJIT {
+static const struct LuaJIT {
+    mixin modLock;
 static:
 private:
 
+    lua_State* state = null;
 
 public:
+
+    void initialize() {
+
+    }
+
 }
