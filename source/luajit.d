@@ -13,9 +13,8 @@ private:
 public:
 
     void initialize() {
-        if (state !is null) {
-            lua_close(state);
-        }
+        terminate();
+
         state = luaL_newstate();
         luaL_openlibs(state);
     }
@@ -28,5 +27,8 @@ public:
         lua_close(state);
         state = null;
     }
+
+    // Easier to understand.
+    void reset() = initialize;
 
 }
